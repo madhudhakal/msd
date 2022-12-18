@@ -65,19 +65,21 @@
   color: antiquewhite;
     background-color: rgb(8, 10, 10);
     height: 100%;
-    width: 50%;
+    width: 40%;
     line-height: 70px;
+      padding-top:30%;
     text-align: center;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   #item2{
-    height: 500px;
+    height: 100%;
     background-color: rgb(12, 3, 3);
-    width: 50%;
+    width: 60%;
+      padding-top:15%;
   }
   #item2 img{
-   width: 50%;
+
     height:500px;
    
   }
