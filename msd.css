@@ -51,14 +51,14 @@
   
   .it{
     background-color: black;
-    height: 800px;
+    height: 500px;
   display: flex;
   text-align: center;
   width:100%;
   }
   #item1{
+        padding-top: 30%;
   color: antiquewhite;
-   padding-top: 30%;
     height: 100%;
     width: 40%;
     line-height: 70px;
@@ -67,10 +67,11 @@
   }
   
   #item2{
+       padding-top: 15%;
     height: 600px;
     background-color: rgb(12, 3, 3);
     width: 60%;
-    padding-top: 15%;
+  
   }
   #item2 img{
   
