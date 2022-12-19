@@ -58,7 +58,6 @@
     background-color: black;
     height: 800px;
     display: flex;
-
   width:100%;
   }
   #item1{
@@ -68,11 +67,11 @@
     width: 40%;
     line-height: 70px;
     text-align: center;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-family: Georgia, Times, 'Times New Roman', serif;
   }
 
   #item2{
-    height: 600px;
+    height: 100%;
     background-color: rgb(12, 3, 3);
     width: 60%;
     padding-top: 10%;
