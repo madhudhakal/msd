@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+background-color: black;
+  }
+  
+  /* Navigation Bar */
+  #navbar{
+  
+      align-items: center;
+      position: relative;
+      top: 0px;
+      padding: 2px;
+      border-radius: 2px ;
+  }
+  
+  #navbar::before{
+      content: "";
+      background-color: black;
+      position: absolute;
+      top:0px;
+      left:0px;
+      height: 100%;
+      width:100%;
+      z-index: -1;
+      opacity: 0.7;
+  }
+  
+
+  
+  /* Navigation Bar: List Styling */
+  
+  #navbar ul{
+      display: flex;
+      font-family: Georgia, Times, 'Baloo Bhai', cursive;
+  
+  }
+  
+  #navbar ul li{ 
+      list-style: none;
+      font-size: 1.3rem;
+  }
+  
+  #navbar ul li a{
+      color: white;
+      display: block;
+      padding: 3px 22px;
+      border-radius: 20px;
+      text-decoration: none;
+  }
+
+  #navbar ul li a:hover{
+      color: black;
+      background-color: white;
+  }
+  .con{
+    height:800px;
+    width: 100%;
+   text-align: center;
+   color: aliceblue;
+    margin-left: 8%;
+    margin-top: 5%;
+
+  }
+  .con p{
+    margin-bottom: 8%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #footer{
+    background-color: rgb(12, 12, 12);
+    font-size: 20px;
+  color:rgb(201, 192, 192);
+ font-family: Verdana,sans-serif;
+ text-align: center;
+  }
+  </style>
