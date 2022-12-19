@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+
   }
-   /* Navigation Bar */
+  
+  /* Navigation Bar */
   #navbar{
       display: flex;
       align-items: center;
@@ -54,36 +56,35 @@
   
   .it{
     background-color: black;
-    height: 500px;
-  display: flex;
-  text-align: center;
+    height: 800px;
+    display: flex;
+
   width:100%;
   }
   #item1{
-        padding-top: 30%;
   color: antiquewhite;
+   padding-top: 20%;
     height: 100%;
     width: 40%;
     line-height: 70px;
     text-align: center;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-  
+
   #item2{
-       padding-top: 15%;
     height: 600px;
     background-color: rgb(12, 3, 3);
     width: 60%;
-  
+    padding-top: 10%;
   }
   #item2 img{
   
     height:500px;
-   
+   border-radius: 5px;
   }
 
   #footer{
-    background-color: rgb(18, 7, 7);
+    background-color: rgb(194, 183, 183);
     font-size: 20px;
     text-align:center;
   height: 40px;
