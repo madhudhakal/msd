@@ -56,16 +56,15 @@
   .con{
     height:800px;
     width: 100%;
-   text-align: center;
    color: aliceblue;
     margin-left: 8%;
     margin-top: 5%;
-
   }
   .con p{
     margin-bottom: 8%;
     font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-family:  Georgia, Times,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+         text-align: center;
   }
   #footer{
     background-color: rgb(12, 12, 12);
